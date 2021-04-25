@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Enhanced Higher Lower </title>
+</head>
+<body>
+    <main>
+        <h1>Enhanced Higher Lower</h1>
+        <p id="welcome_message"></p>
+        <form>
+            <div class="guess_text">
+                <label for="guess">Your Guess: </label>
+                <input type="text" id="guess_input" name="guess_input">
+            </div>
+            <button type="button" id="guess_button" onclick="guess_number(chosen_number,num)">Guess</button>
+            <p id="message"></p>
+            <p id="duplicate_message"></p>
+        </form>
+    
+    </main>
+    <script src="funcs.js"></script>
+    <script src="higher-lower.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
